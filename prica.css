@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+html{
+	background: linear-gradient(#ff9999, #00cc66);
+	repeat: no-repeat;
+	height: 100%;
+	
+}
+body{
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+.formaPrica {
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 600px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 25px 15px 25px 10px;
+    font: 20px Open Sans Codensed, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+}
+.formaPrica h1 {
+    font-family: Great Vibes;
+    font-size: 30px;
+    display: block;
+    border-bottom:1px solid #E4E4E4;
+    color: black;
+}
+
+.formaPrica label>p{
+	color : red;
+	margin: 0px;
+}
+.formaPrica h1>span {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+.formaPrica label {
+    display: block;
+    margin: 0px;
+}
+.formaPrica label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.formaPrica input[type="text"], .formaPrica input[type="email"], .formaPrica textarea, .formaPrica select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    border-radius: 6px;
+}
+.formaPrica textarea{
+    padding: 5px 3px 3px 5px;
+}
+
+.formaPrica textarea{
+    height:100px;
+}
+.formaPrica .button {
+    background: #E27575;
+    border: none;
+    padding: 10px 25px 10px 25px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    text-shadow: 1px 1px 1px #9E3F3F;
+    margin-bottom: 2%;
+    cursor: pointer;
+}
+.formaPrica .button:hover {
+    background: #CF7A7A
+}
+
+.red{
+  width: 96%;
+  float:left;
+  min-height: 1px;
+}
+
+.kolona{
+  margin-left: 1%;
+  margin-right: 1%;
+  display: inline-block;
+  float: left;
+  min-height: 20px;
+}
+
+.kolona:first-child{
+  margin-left: 0px;
+}
+
+.kolona:last-child{
+  margin-right: 0px;
+}
+
+
+@media only screen and (max-width: 700px)
+{
+  .formaPrica {
+      margin-left:auto;
+      margin-right:auto;
+      max-width: 600px;
+      height: 80%;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 25px 15px 25px 10px;
+      margin-left: 1%;
+      margin-right: 1%;
+      font: 20px Open Sans Codensed, serif;
+      color: #888;
+      text-shadow: 1px 1px 1px #FFF;
+      border:1px solid #E4E4E4;
+  }
+  .kolona{
+    margin-left: 0%;
+    margin-right: 0%;
+    display: inline-block;;
+    float: left;
+    min-height: 20px;
+  }
+  
+  
+.red{
+  width: 95%;
+  float:left;
+  min-height: 1px;
+  margin:1%;
+}
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<anketa>
+<odgovori>
+<prvo>Da</prvo>
+<drugo>Ne</drugo>
+<trece>Da</trece>
+</odgovori>
+<odgovori>
+<prvo>Da</prvo>
+<drugo>Da</drugo>
+<trece>Da</trece>
+</odgovori>
+<odgovori>
+<prvo>Da</prvo>
+<drugo>Da</drugo>
+<trece>Da</trece>
+</odgovori>
+<odgovori><prvo>Ne</prvo><drugo>Da</drugo><trece>Da</trece></odgovori><odgovori><prvo>Da</prvo><drugo>Da</drugo><trece>Da</trece></odgovori></anketa>

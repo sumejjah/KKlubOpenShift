@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Great+Vibes);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+.map {
+        height: 340px;
+        width: 80%;
+        padding-left: 10%;
+      }
+
+.red{
+  width: 100%;
+  float:left;
+  min-height: 1px;
+}
+
+.kolona{
+  margin-left: 1%;
+  margin-right: 1%;
+  display: inline-block;
+  float: left;
+  min-height: 20px;
+}
+
+.kolona:first-child{
+  margin-left: 0px;
+}
+
+.kolona:last-child{
+  margin-right: 0px;
+}
+
+.kolona.dva{
+  margin-top: 3%;
+  font-family: Open Sans Condensed;
+  text-align: center;
+  width: 46%;
+  background-color: white;
+  color: black;
+}
+
+.kolona.dva.lijevo > div{
+  padding-left: 4%;
+  padding-right: 4%;
+  font-size: 20pt;
+  padding-top: 2%;
+}
+
+ul{
+  padding-left: 50%;
+}
+ul>li{
+  padding-left: 0%;
+}
+
+#napomena{
+  color: red;
+  font-size: 20pt;
+  padding-left: 10%;
+  padding-top: 2%;
+}
+
+.lokacija {
+  font-family: Great Vibes;
+  padding-left: 10%;
+  font-size: 30pt;
+}
+
+.lokacija p{
+	display: inline-block;
+    float: left;
+}
+
+.formaPitanje{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  max-width: 500px;
+  font-size: 20px;
+  font-family: Open Sans Condensed;
+  text-shadow: 2px 2px 2px #FFF;
+  border: 1px solid gray;
+}
+
+.formaPitanje label{
+  display: block;
+  margin: 0px;
+}
+
+.formaPitanje p{
+	color: red;
+}
+
+.formaPitanje input[type="text"], .formaPitanje input[type="email"], .formaPitanje textarea, .formaPitanje select{
+  border: 1px solid gray;
+  height: 30px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding: 3px 3px 3px 3px;
+  width: 90%;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.formaPitanje textarea{
+  height: 100px;
+}
+
+.formaPitanje .button{
+  border-radius: 3px;
+  background-color: #E8ABA2;
+  padding: 10px 25px 10px 25px;
+  margin-bottom: 5px;
+}
+
+.formaPitanje .button:hover{
+  background: #EB9A8F;
+}
+a:hover{
+  background-color: yellow;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 640px){
+.kolona{
+  margin-left: 0%;
+  margin-right: 0%;
+  display: inline-block;
+  float: left;
+  min-height: 20px;
+}
+
+  .kolona.dva{
+    margin-top: 3%;
+    margin-right: 0%;
+	margin-left: 0%;
+	padding-left: 5%;
+	padding-right: 3px;
+    font-family: Open Sans Condensed;
+    text-align: center;
+    width: 90%;
+	color: black;
+	background-color: white;
+  }
+  .kolona.dva.lijevo > div{
+    margin-right: 0%;
+	padding-left: 5%;
+	padding-right: 1%;
+    font-size: 20pt;
+    padding-top: 2%;
+	width: 90%;
+  }
+  
+  
+.formaPitanje{
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  font-size: 20px;
+  font-family: Open Sans Condensed;
+  text-shadow: 2px 2px 2px #FFF;
+  border: 1px solid gray;
+}
+
+#napomena{
+  color: red;
+  font-size: 20pt;
+  padding-left: 5%;
+  padding-top: 2%;
+  margin: 0%;
+}
+}

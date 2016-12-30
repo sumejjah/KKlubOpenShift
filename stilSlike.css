@@ -1,0 +1,74 @@
+.carouselbox {
+      font-family: helvetica,sans-serif;
+      font-size: 14px;
+      max-width: 900px;
+      position: relative;
+	  margin-left: auto;
+	  margin-right: auto;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 10px #ccc;
+      overflow: hidden;
+    }
+    .sadrzaj {
+      margin: 0;
+      padding: 0;
+    }
+    .sadrzaj li {
+      font-size: 100px;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      list-style: none;
+      text-align: center;
+      z-index: 2;
+    }
+	
+	.sadrzaj .slika{
+		padding-top: auto;
+		padding-bottom: auto;
+		max-width: 900px;
+		height: 600px;
+	}
+
+
+    .active {
+	min-height: 600px;
+    max-height: 800px;
+    }
+    .carouselbox button {
+      border: none;
+      visibility: hidden;
+    }
+    .active button {
+      visibility: visible;
+    } 
+    .naEkranu {
+      position: absolute;
+      left: -2000px;
+    }
+
+    .active .buttons {
+      padding: 5px 0;
+      background: #eee;
+      text-align: center;
+      z-index: 10;
+      position: relative;
+    }
+    .active li {
+      position: absolute;
+      top: 20px;
+      opacity: 0;
+      transform: scale(0);
+      transition: 1s;
+    }
+    .active li.current {
+      top: 20px;
+      opacity: 1;
+      transform: scale(1);
+      transition: 1s;
+    }
+    .li img {
+      width: 99%;
+      height: 99%;
+      display: block;
+    }
