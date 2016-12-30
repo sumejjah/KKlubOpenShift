@@ -21,7 +21,7 @@ else{
 
 <div class="meni">
   <div class="kolona prazno"></div>
-  <div class="kolona pet"><a href="zadaca.php">O nama</a></div>
+  <div class="kolona pet"><a href="index.php">O nama</a></div>
   <div class="kolona pet"><a href="ponuda.php">Ponuda</a></div>
   <div class="dropdown">
 	<button class="dropbtn">Iskustva</button>
